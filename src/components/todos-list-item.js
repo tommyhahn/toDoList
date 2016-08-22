@@ -13,7 +13,7 @@ export default class TodosListItem extends React.Component {
         const { task, isCompleted } = this.props;
 
         const taskStyle = {
-            color: isCompleted ? 'green' : 'red',
+            color: isCompleted ? 'purple' : 'red',
             cursor: 'pointer'
         };
 
